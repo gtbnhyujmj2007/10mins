@@ -1,0 +1,7 @@
+🛠 技術模組架構
+模組	功能
+price_fetcher.py	從交易所 API 抓價格
+strategy.py	決定是否進場、計算目標價
+trader.py	下單、平倉（需 API Key）
+main.py	控制整體流程（每10分鐘跑一次）
+logger.py	紀錄歷史交易與績效
